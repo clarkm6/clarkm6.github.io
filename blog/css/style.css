@@ -192,6 +192,22 @@ aside {
     padding-left: 0.7rem;
 }
 
+@media (max-width:500px) {
+    aside {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
+
+    @media (max-width:500px) {
+        aside img {
+          display: flex;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+        }
+
 aside p {
     border-bottom: 1px solid #192d46;
     font-size: 1.1rem;
@@ -239,7 +255,21 @@ figure {
     font-size: 1.1rem;
 }
 
+@media (max-width:500px) {
+    .subsection {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
 
+    @media (max-width:500px) {
+        .subsection figure {
+          display: flex;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+        }
 
 /*   Links and Nav   */
 
@@ -320,6 +350,6 @@ footer a {
 
 .return {
     font-size: 0.5rem;
-    padding-top: 1rem;
+    padding-top: 0rem;
     font-family: roboto, Arial, sans-serif;
 }

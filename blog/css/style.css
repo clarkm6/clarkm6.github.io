@@ -247,7 +247,7 @@ a {
     text-decoration: none;
 }
 
-nav a a:link, 
+nav a:link, 
 a:visited {
     color: #55166d;
 }
@@ -262,7 +262,7 @@ nav a {
     padding: 1rem 2rem;
     font-size: 1.5rem;
     font-family: lato, Arial, sans-serif;
-    color: #551a6d;
+    color: #e00b0b;
 }
 
 nav a:focus,
@@ -299,21 +299,27 @@ footer a:link,
 
 /* Footer Styles */
 
-footer p {
+footer a {
     text-align: left;
     font-size: 1.25rem;
     padding-top: .2rem;   
     font-family: montserrat, Arial, sans-serif;
 }
 
+.line {
+    border-bottom: 1px solid #192d46;
+    padding-bottom: .25rem;
+}
+
 .attribution {
     text-align: right;
     font-size: 1rem;
     font-family: opensans, Arial, sans-serif;
+    
 }
 
 .return {
-    font-size:.9rem;
-    padding-top: 1rem; 
+    font-size: 0.5rem;
+    padding-top: 1rem;
     font-family: roboto, Arial, sans-serif;
 }

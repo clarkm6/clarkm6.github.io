@@ -275,12 +275,9 @@ figure {
 
 a {
     text-decoration: none;
-}
-
-nav a:link, 
-a:visited {
     color: #e00b0b;
 }
+
 
 a:focus,
 a:hover {
@@ -326,18 +323,6 @@ button a {
     font-size: 1.3rem;
 }
 
-.attribution a:link,
-   a:visited {
-    color: #e00b0b;
-}
-
-.line a:link, a:visited {
-    color:#e00b0b
-}
-
-.return a:link, a:visited {
-    color:#e00b0b
-}
 
 /* Footer Styles */
 

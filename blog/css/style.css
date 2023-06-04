@@ -279,7 +279,7 @@ a {
 
 nav a:link, 
 a:visited {
-    color: #55166d;
+    color: #e00b0b;
 }
 
 a:focus,
@@ -317,14 +317,26 @@ button {
     border-bottom-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
     border-top-left-radius: 3rem;
-    color: #fff7ef;
      background-color: #2a224b;
-     box-shadow: 5px 4px 4px -1px #888;
+     box-shadow: 5px 4px 7px -1px #888;
 }
 
-footer a:link,
+button a {
+    color: #fff7ef;
+    font-size: 1.3rem;
+}
+
+.attribution a:link,
    a:visited {
     color: #e00b0b;
+}
+
+.line a:link, a:visited {
+    color:#e00b0b
+}
+
+.return a:link, a:visited {
+    color:#e00b0b
 }
 
 /* Footer Styles */
@@ -345,6 +357,6 @@ footer a:link,
 
 .return {
     font-size: 01.1rem;
-    padding-top: .8rem;
+    padding-top: .3rem;
     font-family: montserrat, Arial, sans-serif;
 }

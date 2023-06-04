@@ -329,27 +329,22 @@ footer a:link,
 
 /* Footer Styles */
 
-footer a {
-    text-align: left;
-    font-size: 1.25rem;
-    padding-top: .2rem;   
-    font-family: montserrat, Arial, sans-serif;
-}
 
 .line {
     border-bottom: 1px solid #192d46;
-    padding-bottom: .25rem;
+    padding-bottom: .4rem;
+    font-size: 1.18rem;
 }
 
 .attribution {
     text-align: right;
-    font-size: 1rem;
+    font-size: .95rem;
     font-family: opensans, Arial, sans-serif;
     
 }
 
 .return {
-    font-size: 0.5rem;
-    padding-top: 1rem;
-    font-family: roboto, Arial, sans-serif;
+    font-size: 01.1rem;
+    padding-top: .8rem;
+    font-family: montserrat, Arial, sans-serif;
 }
